@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 223.189.147.53
+ip-address: 223.177.124.121
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1734437521941
-  login: 1734433198462
+  logout: 1737640501936
+  login: 1737640085110
 money: '0'
 last-account-name: nasu_chacha
 logoutlocation:
   world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
   world-name: nasu vally
-  x: -63.48750001192093
-  y: 68.0
-  z: 60.411138001757806
-  yaw: 178.7816619873047
-  pitch: 15.600116729736328
+  x: -124.54626213884302
+  y: 63.0
+  z: 72.67170739297563
+  yaw: -49.05035400390625
+  pitch: 20.850006103515625
 lastlocation:
   world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
   world-name: nasu vally
-  x: 13.89926998156638
+  x: 13.615251263499967
   y: 73.0625
-  z: -469.01771874494375
-  yaw: 127.04522705078125
-  pitch: 3.6001036167144775
+  z: -467.75398963440875
+  yaw: 176.54991149902344
+  pitch: 2.2500197887420654

@@ -1,0 +1,458 @@
+[13:43:20] [ServerMain/ERROR]: [DirectoryProviderSource] Error preparing plugin context: Directory 'plugins/paper-1.20.6-151.jar' failed to update!
+java.lang.RuntimeException: Directory 'plugins/paper-1.20.6-151.jar' failed to update!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.prepareContext(FileProviderSource.java:57) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$prepareContext$1(DirectoryProviderSource.java:33) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.walkFiles(DirectoryProviderSource.java:64) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:17) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.Main.main(Main.java:122) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.Main.main(Main.java:328) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.bukkit.plugin.InvalidPluginException: java.lang.IllegalArgumentException: plugins/paper-1.20.6-151.jar does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.checkUpdate(FileProviderSource.java:120) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.prepareContext(FileProviderSource.java:55) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	... 21 more
+Caused by: java.lang.IllegalArgumentException: plugins/paper-1.20.6-151.jar does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.getPluginName(FileProviderSource.java:129) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.checkUpdate(FileProviderSource.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.prepareContext(FileProviderSource.java:55) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	... 21 more
+[13:43:20] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[13:43:28] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 7485ms.
+[13:43:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/voicechat-bukkit-2.5.15.jar'...
+[13:43:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/DecentHolograms-2.8.8.jar'...
+[13:43:28] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/CoordinatesHUD.jar'...
+[13:43:28] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/GameModeInventories.jar'...
+[13:43:28] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/CoordinatesHUD.jar' in 298ms.
+[13:43:28] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.3.jar'...
+[13:43:28] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GameModeInventories.jar' in 472ms.
+[13:43:28] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Sleep.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Sleep.jar' in 192ms.
+[13:43:29] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/GSit-1.9.4.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DecentHolograms-2.8.8.jar' in 761ms.
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlayerKits2.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlayerKits2.jar' in 530ms.
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PluginConstructorAPI.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/voicechat-bukkit-2.5.15.jar' in 1334ms.
+[13:43:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GSit-1.9.4.jar' in 812ms.
+[13:43:29] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/EssentialsX-2.20.1.jar'...
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PluginConstructorAPI.jar' in 203ms.
+[13:43:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Simple-Tpa.jar'...
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Simple-Tpa.jar' in 181ms.
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/dead-chest-4.21.0.jar'...
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/dead-chest-4.21.0.jar' in 275ms.
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
+[13:43:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar' in 865ms.
+[13:43:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/FarmProtect-v1.9.0.jar'...
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 253ms.
+[13:43:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/LuckPerms-Bukkit-5.4.102.jar'...
+[13:43:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/FarmProtect-v1.9.0.jar' in 205ms.
+[13:43:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v4.1.5.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LuckPerms-Bukkit-5.4.102.jar' in 501ms.
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ChestSort-14.1.0.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ChestSort-14.1.0.jar' in 440ms.
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlayTime-3.6.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlayTime-3.6.jar' in 136ms.
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GriefPrevention.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v4.1.5.jar' in 1023ms.
+[13:43:31] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/TradeShop-2.6.1-STABLE.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EssentialsX-2.20.1.jar' in 2113ms.
+[13:43:31] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/ColoredSigns-6.2.1.212.jar'...
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GriefPrevention.jar' in 309ms.
+[13:43:31] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EssentialsXChat-2.20.1.jar'...
+[13:43:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EssentialsXChat-2.20.1.jar' in 194ms.
+[13:43:32] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[13:43:32] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ColoredSigns-6.2.1.212.jar' in 199ms.
+[13:43:32] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TradeShop-2.6.1-STABLE.jar' in 386ms.
+[13:43:32] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.3.jar' in 3798ms.
+[13:43:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1336ms.
+[13:43:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:43:43] [ServerMain/INFO]: Loaded 1176 recipes
+[13:43:43] [ServerMain/INFO]: Loaded 1337 advancements
+[13:43:43] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[13:43:43] [Server thread/INFO]: Loading properties
+[13:43:44] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[13:43:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:43:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:43:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:43:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:43:46] [Server thread/INFO]: Default game type: SURVIVAL
+[13:43:46] [Server thread/INFO]: Generating keypair
+[13:43:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:43:46] [Server thread/INFO]: Using epoll channel type
+[13:43:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:43:46] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:43:49] [Server thread/INFO]: [SpigotLibraryLoader] [GameModeInventories] Loading 1 libraries... please wait
+[13:43:49] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.pom
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.pom
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0-alpha1/slf4j-parent-2.0.0-alpha1.pom
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[13:43:50] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] [GameModeInventories] Loaded library /home/nasuadmin/minecraft-server/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[13:43:50] [Server thread/INFO]: [SpigotLibraryLoader] [GameModeInventories] Loaded library /home/nasuadmin/minecraft-server/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[13:43:50] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:44:02] [Server thread/WARN]: Legacy plugin TPA v1.0 does not specify an api-version.
+[13:44:02] [Server thread/WARN]: Legacy plugin FarmProtect v1.9.0 does not specify an api-version.
+[13:44:02] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
+[13:44:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[13:44:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[13:44:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:44:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:44:04] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:44:04] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:44:05] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerLevelParticles(com.viaversion.viaversion.api.protocol.packet.ClientboundPacketType, com.viaversion.viaversion.api.type.Type)'
+	at ViaBackwards-5.0.0-SNAPSHOT.jar/com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerPackets(ItemPacketRewriter1_13_1.java:72) ~[ViaBackwards-5.0.0-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:36) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.callRegister(AbstractProtocol.java:236) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.registerPackets(AbstractProtocol.java:220) ~[ViaVersion-5.2.1.jar:?]
+	at ViaBackwards-5.0.0-SNAPSHOT.jar/com.viaversion.viabackwards.api.BackwardsProtocol.registerPackets(BackwardsProtocol.java:49) ~[ViaBackwards-5.0.0-SNAPSHOT.jar:?]
+	at ViaBackwards-5.0.0-SNAPSHOT.jar/com.viaversion.viabackwards.protocol.v1_13_1to1_13.Protocol1_13_1To1_13.registerPackets(Protocol1_13_1To1_13.java:62) ~[ViaBackwards-5.0.0-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:106) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:209) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:203) ~[ViaVersion-5.2.1.jar:?]
+	at ViaBackwards-5.0.0-SNAPSHOT.jar/com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:107) ~[ViaBackwards-5.0.0-SNAPSHOT.jar:?]
+	at ViaBackwards-5.0.0-SNAPSHOT.jar/com.viaversion.viabackwards.BukkitPlugin.lambda$new$0(BukkitPlugin.java:38) ~[ViaBackwards-5.0.0-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:88) ~[ViaVersion-5.2.1.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:532) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:286) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:44:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[13:44:05] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:44:05] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.3+6788-6359df8
+[13:44:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1c16211]
+[13:44:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.0-SNAPSHOT
+[13:44:07] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[13:44:07] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[13:44:07] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[13:44:07] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.1-SNAPSHOT
+[13:44:07] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.8
+[13:44:07] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.15
+[13:44:07] [Server thread/INFO]: [CoordinatesHUD] Loading server plugin CoordinatesHud v1.0
+[13:44:07] [Server thread/INFO]: [GameModeInventories] Loading server plugin GameModeInventories v3.5.0
+[13:44:07] [Server thread/INFO]: [SLEEP] Loading server plugin Sleep v1.0.8
+[13:44:07] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.9.4
+[13:44:07] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.15.2
+[13:44:07] [Server thread/INFO]: [PluginConstructorAPI] Loading server plugin PluginConstructorAPI v1.0.50
+[13:44:07] [Server thread/INFO]: [TPA] Loading server plugin TPA v1.0
+[13:44:07] [Server thread/INFO]: [DeadChest] Loading server plugin DeadChest v4.21.0
+[13:44:07] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[13:44:07] [Server thread/INFO]: [FarmProtect] Loading server plugin FarmProtect v1.9.0
+[13:44:07] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.5
+[13:44:07] [Server thread/INFO]: [ChestSort] Loading server plugin ChestSort v14.1.0
+[13:44:07] [Server thread/INFO]: [PlayTime] Loading server plugin PlayTime v3.6
+[13:44:07] [Server thread/INFO]: [TradeShop] Loading server plugin TradeShop v2.6.1-STABLE
+[13:44:07] [Server thread/INFO]: [Colored Signs] Loading server plugin ColoredSigns v6.2.1.212
+[13:44:07] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[13:44:07] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[13:44:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[13:44:08] [Server thread/INFO]:         __    
+[13:44:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[13:44:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:44:08] [Server thread/INFO]: 
+[13:44:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:44:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:44:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:44:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:44:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2606ms)
+[13:44:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:44:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:44:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:44:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:44:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:44:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.3+6788-6359df8
+[13:44:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:44:11] [Server thread/INFO]: WEPIF: Updated config file
+[13:44:11] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:44:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
+[13:44:13] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.1-SNAPSHOT
+[13:44:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[13:44:14] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[13:44:15] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[13:44:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:44:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.1]
+[13:44:16] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[13:44:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:44:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:44:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:44:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:44:16] [Server thread/INFO]: Preparing level "nasu vally"
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[13:44:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[13:44:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:44:23] [Server thread/INFO]: Time elapsed: 4576 ms
+[13:44:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:44:24] [Server thread/INFO]: Time elapsed: 1564 ms
+[13:44:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:44:25] [Server thread/INFO]: Time elapsed: 524 ms
+[13:44:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[13:44:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[13:44:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.0-SNAPSHOT
+[13:44:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[13:44:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:44:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[13:44:26] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:44:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:44:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:44:27] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[13:44:27] [Server thread/INFO]: [Essentials] Using locale en
+[13:44:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:44:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:44:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:44:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:44:28] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[13:44:28] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[13:44:28] [Server thread/INFO]: [GriefPrevention] 25 total claims loaded.
+[13:44:28] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[13:44:28] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[13:44:29] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[13:44:29] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.8
+[13:44:29] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.15
+[13:44:29] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.6-R0.1
+[13:44:29] [Server thread/INFO]: [voicechat] Compatibility version 18
+[13:44:29] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:44:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.15]
+[13:44:29] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[13:44:29] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[13:44:29] [Server thread/INFO]: [CoordinatesHUD] Enabling CoordinatesHud v1.0
+[13:44:29] [Server thread/INFO]: [CoordinatesHUD] CoordinatesHUD Enabled
+[13:44:29] [Server thread/INFO]: [GameModeInventories] Enabling GameModeInventories v3.5.0
+[13:44:29] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] GMISQLitePool - Starting...
+[13:44:30] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] GMISQLitePool - Added connection org.sqlite.jdbc4.JDBC4Connection@57c6b596
+[13:44:30] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] GMISQLitePool - Start completed.
+[13:44:30] [Server thread/INFO]: [SLEEP] Enabling Sleep v1.0.8
+[13:44:30] [Server thread/INFO]: [GSit] Enabling GSit v1.9.4
+[13:44:30] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:44:30] [Server thread/INFO]: [GSit] Link with GriefPrevention successful!
+[13:44:30] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[13:44:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.9.4]
+[13:44:30] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[13:44:30] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.15.2
+[13:44:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.15.2]
+[13:44:31] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.15.2
+[13:44:31] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[13:44:31] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.50
+[13:44:31] [Server thread/INFO]: [TPA] Enabling TPA v1.0*
+[13:44:31] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.0
+[13:44:31] [Server thread/INFO]: [FarmProtect] Enabling FarmProtect v1.9.0*
+[13:44:32] [Thread-17/INFO]: [FarmProtect] About to download a new update: FarmProtect v1.9.0
+[13:44:32] [Thread-17/INFO]: [FarmProtect] Downloading update: 60% of 42920 bytes.
+[13:44:32] [Thread-17/INFO]: [FarmProtect] Downloading update: 70% of 42920 bytes.
+[13:44:32] [Thread-17/INFO]: [FarmProtect] Downloading update: 100% of 42920 bytes.
+[13:44:32] [Thread-17/INFO]: [FarmProtect] Finished updating.
+[13:44:32] [Server thread/INFO]: [FarmProtect] Version 1.9.0 by jacklin213 has been Enabled!
+[13:44:32] [Server thread/INFO]: [TAB] Enabling TAB v4.1.5
+[13:44:32] [Thread-16/INFO]: [DeadChest] About to download a new update: DeadChest v4.21.1
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 10% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 20% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 30% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 40% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 50% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 60% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 70% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 80% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 90% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Downloading update: 100% of 101140 bytes.
+[13:44:32] [Thread-16/INFO]: [DeadChest] Finished updating.
+[13:44:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 109ms
+[13:44:33] [Server thread/INFO]: [TAB] Enabled in 564ms
+[13:44:33] [Server thread/INFO]: [ChestSort] Enabling ChestSort v14.1.0
+[13:44:33] [Server thread/INFO]: [ChestSort] Use permissions: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[13:44:33] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[13:44:33] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[13:44:33] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[13:44:33] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[13:44:33] [Server thread/INFO]: [ChestSort] Check for updates: true
+[13:44:33] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[13:44:33] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[13:44:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chestsort [14.1.0]
+[13:44:33] [Server thread/INFO]: [PlayTime] Enabling PlayTime v3.6*
+[13:44:33] [Server thread/INFO]: [PlayTime] PlaceholderAPI was found! Registering Placeholders.
+[13:44:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playtime [3.6]
+[13:44:33] [Server thread/INFO]: [TradeShop] Enabling TradeShop v2.6.1-STABLE
+[13:44:33] [Server thread/ERROR]: [TradeShop Debug - DATA_ERROR] FLATFILE Malformed Files Found: 0
+[13:44:33] [Server thread/ERROR]: [TradeShop Debug - DATA_ERROR] # of empty player files that couldn't be deleted: 0
+
+[13:44:34] [Server thread/INFO]: [TradeShop] Metrics successfully initialized!
+[13:44:34] [Server thread/INFO]: [Colored Signs] Enabling ColoredSigns v6.2.1.212
+[13:44:34] [Thread-18/INFO]: [TradeShop] [Updater] You are running the latest version of the plugin!
+[13:44:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[13:44:34] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[13:44:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:44:34] [Server thread/INFO]: Running delayed init tasks
+[13:44:34] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:44:34] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:44:34] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:44:34] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[13:44:34] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/animations
+[13:44:34] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:44:34] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
+[13:44:34] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loaded 13 holograms!
+[13:44:34] [Craft Scheduler Thread - 11 - PlayTime/INFO]: [PlayTime] Latest version is installed! - v3.6
+[13:44:34] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[13:44:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.7]
+[13:44:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: griefprevention [1.7.0]
+[13:44:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[13:44:35] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[13:44:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[13:44:36] [Server thread/INFO]: 4 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[13:44:36] [Server thread/WARN]: [ChestSort] **************************************************
+[13:44:36] [Server thread/WARN]: [ChestSort] * There is a new version of ChestSort available!
+[13:44:36] [Server thread/WARN]: [ChestSort] *  
+[13:44:36] [Server thread/WARN]: [ChestSort] * Your version:   14.1.0
+[13:44:36] [Server thread/WARN]: [ChestSort] * Latest version: 14.2.0
+[13:44:36] [Server thread/WARN]: [ChestSort] *  
+[13:44:36] [Server thread/WARN]: [ChestSort] * Please update to the newest version.
+[13:44:36] [Server thread/WARN]: [ChestSort] *  
+[13:44:36] [Server thread/WARN]: [ChestSort] * Download:
+[13:44:36] [Server thread/WARN]: [ChestSort] *   https://www.chestsort.de
+[13:44:36] [Server thread/WARN]: [ChestSort] **************************************************
+[13:44:36] [Server thread/INFO]: Done (52.037s)! For help, type "help"
+[13:44:36] [Server thread/INFO]: Timings Reset
+[13:44:36] [Server thread/INFO]: [voicechat] Loading plugins
+[13:44:36] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:44:36] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:44:36] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:44:36] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:44:36] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '20.244.99.115', binding to wildcard IP instead
+[13:44:36] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 20.244.99.115:25522
+[13:44:36] [Craft Scheduler Thread - 8 - PluginConstructorAPI/INFO]: Found a new version of PluginConstructorAPI: v1.1.53 downloading now!!
+[13:44:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[13:48:02] [User Authenticator #0/INFO]: UUID of player nasu_chacha is e9e29ffd-e1e6-3448-bd19-e7d75dcd5a71
+[13:48:04] [Server thread/INFO]: nasu_chacha joined the game
+[13:48:04] [TAB Processing Thread/INFO]: [TAB] [WARN] Player nasu_chacha's group (gm) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[13:48:05] [Server thread/INFO]: nasu_chacha[/223.177.124.121:57040] logged in with entity id 1777 at ([nasu vally]-63.48750001192093, 68.0, 60.411138001757806)
+[13:48:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[13:48:43] [Server thread/INFO]: nasu_chacha is now sleeping, 100% out of 50% needed
+[13:49:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[13:50:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp nasu_chacha 13 73 -467
+[13:50:12] [Server thread/INFO]: Teleporting...
+[13:50:39] [Server thread/WARN]: nasu_chacha moved wrongly!
+[13:50:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp nasu_chacha -90 64 127
+[13:50:44] [Server thread/INFO]: Teleporting...
+[13:52:04] [User Authenticator #1/INFO]: UUID of player PuneetD is d9d68f13-d608-35c3-9cc9-60dd58905161
+[13:52:05] [TAB Processing Thread/INFO]: [TAB] [WARN] Player PuneetD's group (gm) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[13:52:05] [Server thread/INFO]: PuneetD joined the game
+[13:52:05] [Server thread/INFO]: PuneetD[/14.139.244.108:61072] logged in with entity id 4641 at ([nasu vally]-65.50396477431602, 82.0625, 56.28899424249238)
+[13:52:59] [Server thread/INFO]: nasu_chacha issued server command: /plugins
+[13:55:01] [Server thread/INFO]: nasu_chacha lost connection: Disconnected
+[13:55:01] [Server thread/INFO]: [voicechat] Disconnecting client nasu_chacha
+[13:55:02] [Server thread/INFO]: nasu_chacha left the game
+[13:55:11] [Server thread/INFO]: Stopping server
+[13:55:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[13:55:11] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[13:55:11] [Server thread/INFO]: [Colored Signs] Disabling ColoredSigns v6.2.1.212
+[13:55:11] [Server thread/INFO]: &cColored Signs is now disabled!
+[13:55:11] [Server thread/INFO]: [TradeShop] Disabling TradeShop v2.6.1-STABLE
+[13:55:11] [Server thread/INFO]: [PlayTime] Disabling PlayTime v3.6
+[13:55:11] [Server thread/INFO]: [ChestSort] Disabling ChestSort v14.1.0
+[13:55:11] [Server thread/INFO]: [TAB] Disabling TAB v4.1.5
+[13:55:11] [Server thread/INFO]: [TAB] Disabled in 1ms
+[13:55:11] [Server thread/INFO]: [FarmProtect] Disabling FarmProtect v1.9.0
+[13:55:11] [Server thread/INFO]: [DeadChest] Disabling DeadChest v4.21.0
+[13:55:11] [Server thread/INFO]: [TPA] Disabling TPA v1.0
+[13:55:11] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.50
+[13:55:11] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.15.2
+[13:55:11] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.15.2
+[13:55:11] [Server thread/INFO]: [GSit] Disabling GSit v1.9.4
+[13:55:11] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[13:55:11] [Server thread/INFO]: [SLEEP] Disabling Sleep v1.0.8
+[13:55:11] [Server thread/INFO]: [GameModeInventories] Disabling GameModeInventories v3.5.0
+[13:55:11] [Server thread/INFO]: [CoordinatesHUD] Disabling CoordinatesHud v1.0
+[13:55:11] [Server thread/INFO]: [CoordinatesHUD] CoordinatesHUD Disabled
+[13:55:11] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.15
+[13:55:11] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.8
+[13:55:11] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.1-SNAPSHOT
+[13:55:11] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[13:55:11] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion griefprevention
+[13:55:11] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin GriefPrevention was disabled.
+[13:55:11] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[13:55:11] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[13:55:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:55:11] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[13:55:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.0-SNAPSHOT
+[13:55:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.3+6788-6359df8
+[13:55:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:55:11] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:55:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.102
+[13:55:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:55:11] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:55:11] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:55:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[13:55:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[13:55:11] [Server thread/INFO]: Saving players
+[13:55:11] [Server thread/INFO]: PuneetD lost connection: Server closed
+[13:55:11] [Server thread/INFO]: PuneetD left the game
+[13:55:12] [Server thread/INFO]: Saving worlds
+[13:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[nasu vally]'/minecraft:overworld
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'nasu vally'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'nasu vally'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'nasu vally'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saved 78 block chunks, 379 entity chunks, 1 poi chunks in world 'nasu vally' in 0.25s
+[13:55:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (nasu vally): All chunks are saved
+[13:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[nasu vally_nether]'/minecraft:the_nether
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'nasu vally_nether'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'nasu vally_nether'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'nasu vally_nether'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 135 entity chunks, 0 poi chunks in world 'nasu vally_nether' in 0.03s
+[13:55:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:55:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[nasu vally_the_end]'/minecraft:the_end
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'nasu vally_the_end'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'nasu vally_the_end'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'nasu vally_the_end'
+[13:55:12] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 47 entity chunks, 0 poi chunks in world 'nasu vally_the_end' in 0.01s
+[13:55:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:55:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:55:12] [Server thread/INFO]: Flushing Chunk IO
+[13:55:12] [Server thread/INFO]: Closing Thread Pool
+[13:55:12] [Server thread/INFO]: Closing Server
