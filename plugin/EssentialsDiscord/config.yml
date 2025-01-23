@@ -12,13 +12,13 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "MTI0ODUxMTA1MDUwOTMyMDI0Mw.G9E2yP.r1_2H9_RfDkug1SfWwAFufFgxGV17YZxtyw540"
+token: "MTMzMTkzNjMyNjQ2NzE5NDkzMw.GlQeuD.U_gaPtf2UJUznmB7K_O8RnMXXDgAA69s5BWucw"
 
 # The ID of your server.
-guild: 1247809658337493055
+guild: 1317160310154727435
 
 # The Discord invite URL that will be shown when a player when using the /discord command or in other areas.
-discord-url: "https://discord.gg/Msde6W7k7S"
+discord-url: "https://dsc.gg/nexiotech"
 
 # Defined text channels
 # =====================
@@ -38,8 +38,8 @@ discord-url: "https://discord.gg/Msde6W7k7S"
 # - staff, which will send kick/mute messages
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
-  primary: 1248511454496428032
-  staff: 1248511532040458302
+  primary: 1331935770621120542
+  staff: 1331935770621120542
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
@@ -186,6 +186,7 @@ commands:
     allowed-roles:
       - "Admins"
       - "123456789012345678"
+      - "1021494331376402492"
   # The msg command allows for Discord users to message MC players from Discord.
   msg:
     # Set to false if you do not want this command to show up on the Discord command selector.
@@ -203,6 +204,7 @@ commands:
     admin-roles:
       - "Admins"
       - "123456789012345678"
+      - "1021494331376402492"
   # The list command allows Discord users to see a list of players currently online on Minecraft.
   list:
     # Set to false if you do not want this command to show up on the Discord command selector.
@@ -219,6 +221,7 @@ commands:
     admin-roles:
       - "Admins"
       - "123456789012345678"
+      - "1021494331376402492"
 
 # Whether or not links to attachments in Discord messages should be displayed in chat or not.
 # If this is set to false and a message from Discord only contains an image/file and not any text, nothing will be sent.
