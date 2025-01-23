@@ -1,0 +1,20 @@
+{
+  "e9e29ffd-e1e6-3448-bd19-e7d75dcd5a71": {
+    "uuidString": "e9e29ffd-e1e6-3448-bd19-e7d75dcd5a71",
+    "ownedShops": [
+      "l::nasu vally::580.0::64.0::-590.0",
+      "l::nasu vally::575.0::65.0::-590.0",
+      "l::nasu vally::576.0::65.0::-590.0",
+      "l::nasu vally::578.0::65.0::-590.0",
+      "l::nasu vally::577.0::65.0::-590.0",
+      "l::nasu vally::574.0::65.0::-590.0",
+      "l::nasu vally::-126.0::63.0::78.0"
+    ],
+    "staffShops": [
+      "l::nasu vally::-15.0::72.0::148.0"
+    ],
+    "showInvolvedStatus": false,
+    "adminEnabled": true,
+    "multi": 2
+  }
+}

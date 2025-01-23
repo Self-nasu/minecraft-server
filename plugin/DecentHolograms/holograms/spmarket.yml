@@ -1,0 +1,18 @@
+location: nasu vally:-90.463:65.501:133.609
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&3&l Teleport to Marketplace'
+    height: 0.3
+  - content: Click to go to &a&lMarket
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:tp {player} 589 68 -557
+    RIGHT:
+    - CONSOLE:tp {player} 589 68 -557

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 49.36.237.146
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1719035995324
+  login: 1719035953118
+money: '0'
+last-account-name: Cpt_Jack_Sparrow
+logoutlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: -88.79182580437046
+  y: 63.5
+  z: 127.50380521449836
+  yaw: -90.89997863769531
+  pitch: 1.0500249862670898

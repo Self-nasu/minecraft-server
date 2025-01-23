@@ -1,0 +1,16 @@
+location: nasu vally:-92.709:66.906:125.357
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l Starting fresh?'
+    height: 0.3
+  - content: '&a Claim your starter kits'
+    height: 0.3
+  - content: '&a by using &b&l\kits'
+    height: 0.3
+  actions: {}

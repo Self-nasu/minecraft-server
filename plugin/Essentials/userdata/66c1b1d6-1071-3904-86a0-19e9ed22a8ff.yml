@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 34.47.138.236
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717900074448
+  login: 1717899598224
+money: '0'
+last-account-name: Crafters
+lastlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: 4.5
+  y: 103.0
+  z: 0.5
+  yaw: -61.04998779296875
+  pitch: -11.100000381469727
+logoutlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: -85.5
+  y: 74.0
+  z: 129.5
+  yaw: 74.25
+  pitch: 71.03873443603516

@@ -1,0 +1,3 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-07-07	10:17:50	Trade	nasu_chacha	PuneetD	nasu vally	577.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"DIAMOND","amount":7}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"TOTEM_OF_UNDYING"}}
+2024-07-07	10:17:51	Trade	nasu_chacha	PuneetD	nasu vally	577.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"DIAMOND","amount":7}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"TOTEM_OF_UNDYING"}}

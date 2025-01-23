@@ -1,0 +1,250 @@
+##########################
+#    TradeShop Config    #
+##########################
+config-version: 1.3
+
+
+# |    System Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^
+system-options: 
+  # How would you like your servers data stored? (FLATFILE, SQLITE)
+  data-storage-type: FLATFILE
+  # What debug code should be run. This will add significant amounts of spam to the console/log, generally not used unless requested by Devs
+  enable-debug: 0
+  # Should we check for updates when the server starts
+  check-updates: true
+  # Allow us to connect anonymous metrics so we can see how our plugin is being used to better develop it
+  allow-metrics: true
+  # We do not recommend enabling this setting since any editing an admin should need to do can be done without this.
+  # Should players with Admin permission be able to use any commands on any shops?
+  unlimited-admin: false
+  transaction-logging-options: 
+    enable-transaction-logging: true
+    output-type: TSV
+    log-time-separation: H
+    transaction-log-format: '%Date_@_%Time_@_%ShopType_@_%Owner_@_%TradingPlayer_@_%World_@_%X_@_%Y_@_%Z_@_%CostList_@_%ProductList'
+# |    Language Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^
+language-options: 
+  # The prefix the displays before all plugin messages
+  message-prefix: '&a[&eTradeShop&a]'
+
+
+  # Header Colours, if the codes are showing in the header, set to ""
+  # Color for successfully created and stocked signs
+  shop-good-colour: '&2'
+  # Color for shops that are missing data to make trades
+  shop-incomplete-colour: '&7'
+  # Color for shops that were not successfully created
+  shop-bad-colour: '&4'
+
+
+  # Status Text, What will be shown in the bottom line of shop sign for each status
+  # Open
+  shop-open-status: '&a<Open>'
+  # Closed
+  shop-closed-status: '&c<Closed>'
+  # Incomplete
+  shop-incomplete-status: '&c<Incomplete>'
+  # Out of Stock
+  shop-outofstock-status: '&c<Out Of Stock>'
+
+
+# |    Global Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^
+global-options: 
+  # Directions a valid shop chest can be from a sign. Multiple directions can be chained together allowing all 26 blocks surrounding a block to be checked.
+  # To Chain directions just add a `+` between each one. i.e `Back+Left` or `Back+Left+Up`
+  # Allowed directions are:
+  #   Up, Down, Left, Right, Back, Front
+  chest-directions: [BACK, DOWN, LEFT, RIGHT, UP, FRONT]
+  # Inventories to allow for shops. Allowed blocks are:
+  #   Chest, Trapped_Chest, Dropper, Hopper, Dispenser, Shulker, ...
+  allowed-shops: [CHEST, TRAPPED_CHEST, SHULKER]
+  # Max distance a player can be from a shop to edit it
+  max-edit-distance: 4
+  # Can players toggle view of involved shops?
+  allow-toggle-status: true
+  # Should we allow anyone to destroy a shops sign?
+  allow-sign-break: false
+  # Should we allow anyone to destroy a shops storage?
+  allow-chest-break: false
+
+
+  multi-trade: 
+    # Should we allow multi trades with shift + click (true/false)
+    enable: true
+    # Default multiplier for trades using shift + click
+    default-multi: 2
+    # Maximum amount a player can set their multiplier to. Not recommended to set any higher than 6 as this can cause bugs with iTrade Shops
+    max-multi: 6
+
+
+  global-find-options: 
+    # Maximum range that can be searched for a shop. Increasing may drastically increase processioning time and cause server lag.
+    max-find-range: 256
+    # Default range to use if no range is specified.
+    default-find-range: 64
+
+
+# |    Shop Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^
+shop-options: 
+  # Maximum users(Managers/Members) a shop can have
+  max-shop-users: 5
+  # Maximum shops that can exist in a single chunk
+  max-shops-per-chunk: 128
+  # Should we add up all of the shop limit permissions a player has? 
+  # False will return just the highest value 
+  # True will return -1 if any are granted or the sum of all granted permissions
+  sum-per-player-limit: false
+  # Maximum shops that each player can make. give the player the `tradeshop.limit.` permission followed by the name set below adding a '.' between each parent/child 
+  # Use -1 for unlimited, 0 to effectively disable shop creation. 
+  # The permissions can be grouped into trees to allow for better sorting, below is a basic example. 
+  # tree: 
+  # item2: 
+  #  item2-1: 0 
+  #  item2-2: 0 
+  # item1: 0
+  max-shops-per-player:
+    default: -1
+  # Maximum amount of item stacks per side of trade
+  max-items-per-trade-side: 6
+  # Can players purchase from a shop in which they are a user of (true/false)
+  allow-user-purchasing: false
+  # Text that shows on trade signs that contain more than 1 item
+  # Available variables are: %AMOUNT%
+  multiple-items-on-sign: Use '/ts what'
+  # What text should be used for successful trades when no cost is present
+  no-cost-text: nothing
+  # What amount should be used for successful trades when no cost is present(must be greater than 0)
+  no-cost-amount: '1'
+
+
+  # |    Shop Per Item Options    |
+  # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  shop-per-item-options: 
+    shop-per-item-settings:
+      compare-shulker-inventory:
+        default: true
+        user-editable: true
+      compare-name:
+        default: true
+        user-editable: true
+      compare-custom-model-data:
+        default: true
+        user-editable: true
+      compare-item-flags:
+        default: true
+        user-editable: true
+      compare-book-pages:
+        default: true
+        user-editable: true
+      compare-firework-duration:
+        default: true
+        user-editable: true
+      compare-bundle-inventory:
+        default: true
+        user-editable: true
+      compare-unbreakable:
+        default: true
+        user-editable: true
+      compare-lore:
+        default: true
+        user-editable: true
+      compare-attribute-modifier:
+        default: true
+        user-editable: true
+      compare-enchantments:
+        default: true
+        user-editable: true
+      compare-firework-effects:
+        default: true
+        user-editable: true
+      compare-durability:
+        default: 1
+        user-editable: true
+      compare-book-author:
+        default: true
+        user-editable: true
+
+
+# |    Shop Sign Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+shop-sign-options: 
+  # What colour should be used for line 2/3 on shop signs per each material type.
+  sign-default-colours:
+    jungle-sign: '&0'
+    bamboo-sign: '&0'
+    oak-sign: '&0'
+    crimson-sign: '&0'
+    warped-sign: '&0'
+    spruce-sign: '&0'
+    acacia-sign: '&0'
+    cherry-sign: '&0'
+    dark-oak-sign: '&f'
+    mangrove-sign: '&0'
+    birch-sign: '&0'
+
+
+# |    Trade Shop Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+trade-shop-options: 
+  # The header that appears at the top of the shop signs, this is also what the player types to create the sign
+  header: Trade
+  # Can explosions damage the shop sign/storage (true/false)
+  allow-explode: false
+  trade-per-shop-settings:
+    hopper-export:
+      default: false
+      user-editable: true
+    no-cost:
+      default: false
+      user-editable: true
+    hopper-import:
+      default: false
+      user-editable: true
+# |    ITrade Shop Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+itrade-shop-options: 
+  # Name to put on the bottom of iTrade signs
+  owner: Server Shop
+  # The header that appears at the top of the shop signs, this is also what the player types to create the sign
+  header: iTrade
+  # Can explosions damage the shop sign (true/false)
+  allow-explode: false
+  itrade-per-shop-settings:
+    no-cost:
+      default: false
+      user-editable: true
+# |    BiTrade Shop Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+bitrade-shop-options: 
+  # The header that appears at the top of the shop signs, this is also what the player types to create the sign
+  header: BiTrade
+  # Can explosions damage the shop sign/storage (true/false)
+  allow-explode: false
+  bitrade-per-shop-settings:
+    hopper-export:
+      default: false
+      user-editable: true
+    hopper-import:
+      default: false
+      user-editable: true
+# |    Illegal Item Options    |
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+illegal-item-options: 
+  # Valid Types: DISABLED, BLACKLIST, WHITELIST
+
+  # List for illegal items for both Cost and Product
+  global-illegal-items: 
+    type: BLACKLIST
+    list: [Bedrock, Command_Block, Barrier]
+  # List for illegal items for only Cost items
+  cost-illegal-items: 
+    type: DISABLED
+    list: []
+  # List for illegal items for only Product items
+  product-illegal-items: 
+    type: DISABLED
+    list: []

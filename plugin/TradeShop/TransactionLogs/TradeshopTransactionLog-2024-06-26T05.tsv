@@ -1,0 +1,2 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-06-26	05:51:23	Trade	nasu_chacha	PuneetD	nasu vally	575.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"EMERALD","amount":30}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"ENCHANTED_BOOK","meta":{"==":"ItemMeta","meta-type":"ENCHANTED","stored-enchants":{"minecraft:mending":1}}}}

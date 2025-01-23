@@ -1,0 +1,2 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-06-19	01:25:12	Trade	Lakshh007	nasu_chacha	nasu vally	575.0	65.0	-579.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"STRING"}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"STRING","amount":2}}

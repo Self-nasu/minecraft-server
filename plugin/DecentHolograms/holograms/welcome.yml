@@ -1,0 +1,14 @@
+location: nasu vally:-90.578:66.618:127.510
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Welcome to
+    height: 0.3
+  - content: '&u&l Suffer SMP 3.0'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 223.185.19.161
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1720015028964
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1734437289949
+  login: 1734437258724
+money: '0'
+last-account-name: Festerrr
+lastlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: 13.166731346242043
+  y: 73.0625
+  z: -467.73724532181507
+  yaw: -167.37588500976562
+  pitch: -5.3177642822265625
+logoutlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: -88.79654575880306
+  y: 74.0
+  z: 64.02417752209416
+  yaw: -133.39523315429688
+  pitch: -34.649322509765625

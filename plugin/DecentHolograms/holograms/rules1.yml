@@ -1,0 +1,20 @@
+location: nasu vally:-87.908:66.866:130.180
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l Server Rules'
+    height: 0.3
+  - content: '&f 1. Respect everyone.'
+    height: 0.3
+  - content: '&f 2. Build in apropriate area'
+    height: 0.3
+  - content: '&f 3. Claim before you build.'
+    height: 0.3
+  - content: '&f 4. Maintain Peace in SMP'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,7 @@
+#####################################################
+#             Plugin created by Slate               #
+#     Simple OnePlayerSleep plugin with a message   #
+#               1.16.5  Version 1.0                 #
+#####################################################
+
+broadcast: "{player} &ewent to bed. Sweet dreams" # Broadcasts in chat whenever someone sleeps.

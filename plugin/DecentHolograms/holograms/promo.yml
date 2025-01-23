@@ -1,0 +1,16 @@
+location: nasu vally:-93.382:66.533:130.447
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l Need Support?'
+    height: 0.3
+  - content: '&a Join us on discord'
+    height: 0.3
+  - content: '&c&l dsc.gg/suffersmp3'
+    height: 0.3
+  actions: {}

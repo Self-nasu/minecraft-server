@@ -1,0 +1,217 @@
+v1.2
+Self_lakshh
+nasu vally
+17.5
+74.0
+132.5
+LEGACY_STRING
+0
+false
+Self_lakshh
+nasu vally
+17.5
+73.0
+132.5
+LEGACY_WOOD
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+65.0
+118.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+119.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+120.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+117.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+118.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+121.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+123.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+124.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+125.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+127.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+128.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+129.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+130.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+65.0
+131.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+65.0
+132.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+132.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+131.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-137.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-139.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-138.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-141.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-142.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-143.5
+64.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-144.5
+65.0
+133.5
+LEGACY_GRASS
+0
+false
+Self_lakshh
+nasu vally
+-145.5
+65.0
+133.5
+LEGACY_GRASS
+0
+false

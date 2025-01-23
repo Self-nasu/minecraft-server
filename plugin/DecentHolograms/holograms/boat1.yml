@@ -1,0 +1,18 @@
+location: nasu vally:-96.465:65.490:127.505
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&l Get a Boat!'
+    height: 0.3
+  - content: '&f Click to get a boat!'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:give {player} spruce_boat 1
+    RIGHT:
+    - CONSOLE:give {player} spruce_boat 1

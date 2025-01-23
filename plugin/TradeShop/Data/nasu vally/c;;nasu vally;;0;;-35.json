@@ -1,0 +1,290 @@
+{
+  "l::nasu vally::3.0::64.0::-547.0": {
+    "shopLoc": {
+      "div": "::",
+      "worldName": "nasu vally",
+      "x": 3.0,
+      "y": 64.0,
+      "z": -547.0
+    },
+    "owner": {
+      "player": "99cd88bd-5901-3c4f-b1f7-a4325c04aef0",
+      "role": "OWNER"
+    },
+    "managers": [],
+    "members": [],
+    "shopType": "TRADE",
+    "product": [
+      {
+        "itemStack": {
+          "==": "org.bukkit.inventory.ItemStack",
+          "v": 3700,
+          "type": "GLASS"
+        },
+        "itemStackB64": null,
+        "itemSettings": {
+          "COMPARE_NAME": {
+            "value": true
+          },
+          "COMPARE_CUSTOM_MODEL_DATA": {
+            "value": true
+          },
+          "COMPARE_BOOK_AUTHOR": {
+            "value": true
+          },
+          "COMPARE_DURABILITY": {
+            "value": 1
+          },
+          "COMPARE_SHULKER_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_ATTRIBUTE_MODIFIER": {
+            "value": true
+          },
+          "COMPARE_LORE": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_EFFECTS": {
+            "value": true
+          },
+          "COMPARE_UNBREAKABLE": {
+            "value": true
+          },
+          "COMPARE_ITEM_FLAGS": {
+            "value": true
+          },
+          "COMPARE_BOOK_PAGES": {
+            "value": true
+          },
+          "COMPARE_ENCHANTMENTS": {
+            "value": true
+          },
+          "COMPARE_BUNDLE_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_DURATION": {
+            "value": true
+          }
+        }
+      }
+    ],
+    "cost": [
+      {
+        "itemStack": {
+          "==": "org.bukkit.inventory.ItemStack",
+          "v": 3700,
+          "type": "IRON_INGOT"
+        },
+        "itemStackB64": null,
+        "itemSettings": {
+          "COMPARE_NAME": {
+            "value": true
+          },
+          "COMPARE_CUSTOM_MODEL_DATA": {
+            "value": true
+          },
+          "COMPARE_BOOK_AUTHOR": {
+            "value": true
+          },
+          "COMPARE_DURABILITY": {
+            "value": 1
+          },
+          "COMPARE_SHULKER_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_ATTRIBUTE_MODIFIER": {
+            "value": true
+          },
+          "COMPARE_LORE": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_EFFECTS": {
+            "value": true
+          },
+          "COMPARE_UNBREAKABLE": {
+            "value": true
+          },
+          "COMPARE_ITEM_FLAGS": {
+            "value": true
+          },
+          "COMPARE_BOOK_PAGES": {
+            "value": true
+          },
+          "COMPARE_ENCHANTMENTS": {
+            "value": true
+          },
+          "COMPARE_BUNDLE_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_DURATION": {
+            "value": true
+          }
+        }
+      }
+    ],
+    "chestLoc": {
+      "div": "::",
+      "worldName": "nasu vally",
+      "x": 2.0,
+      "y": 64.0,
+      "z": -547.0
+    },
+    "status": "OPEN",
+    "shopSettings": {
+      "HOPPER_EXPORT": {
+        "value": false
+      },
+      "HOPPER_IMPORT": {
+        "value": false
+      },
+      "NO_COST": {
+        "value": false
+      }
+    },
+    "availableTrades": 192
+  },
+  "l::nasu vally::1.0::64.0::-547.0": {
+    "shopLoc": {
+      "div": "::",
+      "worldName": "nasu vally",
+      "x": 1.0,
+      "y": 64.0,
+      "z": -547.0
+    },
+    "owner": {
+      "player": "99cd88bd-5901-3c4f-b1f7-a4325c04aef0",
+      "role": "OWNER"
+    },
+    "managers": [],
+    "members": [],
+    "shopType": "TRADE",
+    "product": [
+      {
+        "itemStack": {
+          "==": "org.bukkit.inventory.ItemStack",
+          "v": 3700,
+          "type": "GLASS"
+        },
+        "itemStackB64": null,
+        "itemSettings": {
+          "COMPARE_NAME": {
+            "value": true
+          },
+          "COMPARE_CUSTOM_MODEL_DATA": {
+            "value": true
+          },
+          "COMPARE_BOOK_AUTHOR": {
+            "value": true
+          },
+          "COMPARE_DURABILITY": {
+            "value": 1
+          },
+          "COMPARE_SHULKER_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_ATTRIBUTE_MODIFIER": {
+            "value": true
+          },
+          "COMPARE_LORE": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_EFFECTS": {
+            "value": true
+          },
+          "COMPARE_UNBREAKABLE": {
+            "value": true
+          },
+          "COMPARE_ITEM_FLAGS": {
+            "value": true
+          },
+          "COMPARE_BOOK_PAGES": {
+            "value": true
+          },
+          "COMPARE_ENCHANTMENTS": {
+            "value": true
+          },
+          "COMPARE_BUNDLE_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_DURATION": {
+            "value": true
+          }
+        }
+      }
+    ],
+    "cost": [
+      {
+        "itemStack": {
+          "==": "org.bukkit.inventory.ItemStack",
+          "v": 3700,
+          "type": "EMERALD"
+        },
+        "itemStackB64": null,
+        "itemSettings": {
+          "COMPARE_NAME": {
+            "value": true
+          },
+          "COMPARE_CUSTOM_MODEL_DATA": {
+            "value": true
+          },
+          "COMPARE_BOOK_AUTHOR": {
+            "value": true
+          },
+          "COMPARE_DURABILITY": {
+            "value": 1
+          },
+          "COMPARE_SHULKER_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_ATTRIBUTE_MODIFIER": {
+            "value": true
+          },
+          "COMPARE_LORE": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_EFFECTS": {
+            "value": true
+          },
+          "COMPARE_UNBREAKABLE": {
+            "value": true
+          },
+          "COMPARE_ITEM_FLAGS": {
+            "value": true
+          },
+          "COMPARE_BOOK_PAGES": {
+            "value": true
+          },
+          "COMPARE_ENCHANTMENTS": {
+            "value": true
+          },
+          "COMPARE_BUNDLE_INVENTORY": {
+            "value": true
+          },
+          "COMPARE_FIREWORK_DURATION": {
+            "value": true
+          }
+        }
+      }
+    ],
+    "chestLoc": {
+      "div": "::",
+      "worldName": "nasu vally",
+      "x": 0.0,
+      "y": 64.0,
+      "z": -547.0
+    },
+    "status": "OPEN",
+    "shopSettings": {
+      "HOPPER_EXPORT": {
+        "value": false
+      },
+      "HOPPER_IMPORT": {
+        "value": false
+      },
+      "NO_COST": {
+        "value": false
+      }
+    },
+    "availableTrades": 55
+  }
+}

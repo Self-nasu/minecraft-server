@@ -1,0 +1,10 @@
+name: PuneetD
+kits:
+  food:
+    cooldown: 1717921939843
+    one_time: false
+    bought: false
+  land:
+    cooldown: 1720805399483
+    one_time: false
+    bought: false

@@ -1,0 +1,14 @@
+location: nasu vally:589.429:70.007:-556.347
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&3&l Market'
+    height: 0.3
+  - content: '&e Buy/Sell in Shops!'
+    height: 0.3
+  actions: {}

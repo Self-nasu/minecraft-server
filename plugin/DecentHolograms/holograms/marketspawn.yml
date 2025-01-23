@@ -1,0 +1,18 @@
+location: nasu vally:589.460:69.420:-554.285
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l Teleport to Spawn'
+    height: 0.3
+  - content: Click to go to Spawn
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:tp {player} -90 65 127
+    RIGHT:
+    - CONSOLE:tp {player} -90 65 127

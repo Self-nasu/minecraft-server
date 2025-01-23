@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 152.59.172.24
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718641164291
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718702848420
+  login: 1718702681229
+money: '0'
+last-account-name: Ankit303
+lastlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: -89.5
+  y: 64.0
+  z: 127.5
+  yaw: 53.54882049560547
+  pitch: 13.49998950958252
+logoutlocation:
+  world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
+  world-name: nasu vally
+  x: -89.23687659271411
+  y: 64.0
+  z: 129.47872650928133
+  yaw: 126.45185852050781
+  pitch: 14.100139617919922

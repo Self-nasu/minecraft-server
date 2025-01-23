@@ -1,0 +1,72 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  claim:
+    delay: 10
+    items:
+    - oak_stairs 1
+    - wheat_seeds 4
+    - dandelion 1
+    - torch 40
+    - iron_axe 1
+    - rotten_flesh 1
+    - spider_eye 1
+    - glass 62
+    - spruce_slab 3
+    - spruce_planks 64
+    - water_bucket 1
+    - spruce_planks 64
+    - bread 29
+    - cobblestone 63
+    - iron_shovel 1
+    - iron_sword 1
+    - emerald 16
+    - stone_hoe 1
+    - iron_axe 1
+    - wheat_seeds 4
+    - string 1
+    - golden_shovel 1
+    - oak_planks 1
+    - stone_hoe 1
+    - iron_axe 1
+    - composter 1
+    - spruce_planks 39
+    - oak_stairs 1
+    - diamond_boots 1
+    - diamond_leggings 1
+    - diamond_chestplate 1
+    - diamond_helmet 1
+  starter:
+    delay: 360000
+    items: []

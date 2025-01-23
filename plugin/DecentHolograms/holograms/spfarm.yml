@@ -1,0 +1,18 @@
+location: nasu vally:-84.424:65.494:127.266
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&l Teleport to Farmland'
+    height: 0.3
+  - content: '&fClick to go to &a&lFarmland'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:tp {player} 13 73 -467
+    RIGHT:
+    - CONSOLE:tp {player} 13 73 -467

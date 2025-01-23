@@ -1,0 +1,2 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-06-28	11:01:06	Trade	nasu_chacha	PuneetD	nasu vally	580.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"CARROT","amount":25}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"POTION","meta":{"==":"ItemMeta","meta-type":"POTION","potion-type":"minecraft:long_fire_resistance","custom-effects":[]}}}

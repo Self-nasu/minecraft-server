@@ -1,0 +1,16 @@
+location: nasu vally:-87.422:66.494:124.535
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l How to Claim land?'
+    height: 0.3
+  - content: '&aClaim your land kit using &b&l\kit'
+    height: 0.3
+  - content: '&fUse &6Golden Shovel &fto claim land'
+    height: 0.3
+  actions: {}

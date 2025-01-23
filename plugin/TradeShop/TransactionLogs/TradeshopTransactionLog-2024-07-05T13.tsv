@@ -1,0 +1,5 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-07-05	13:20:20	Trade	nasu_chacha	Lakshh007	nasu vally	-126.0	63.0	78.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"EMERALD","amount":10}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"FIREWORK_ROCKET","amount":64}}
+2024-07-05	13:20:20	Trade	nasu_chacha	Lakshh007	nasu vally	-126.0	63.0	78.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"EMERALD","amount":10}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"FIREWORK_ROCKET","amount":64}}
+2024-07-05	13:20:20	Trade	nasu_chacha	Lakshh007	nasu vally	-126.0	63.0	78.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"EMERALD","amount":10}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"FIREWORK_ROCKET","amount":64}}
+2024-07-05	13:20:20	Trade	nasu_chacha	Lakshh007	nasu vally	-126.0	63.0	78.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"EMERALD","amount":10}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"FIREWORK_ROCKET","amount":64}}

@@ -1,0 +1,14 @@
+name: Ankit303
+kits:
+  land:
+    cooldown: 1718640305649
+    one_time: false
+    bought: false
+  food:
+    cooldown: 1718642715012
+    one_time: false
+    bought: false
+  starter:
+    cooldown: 1718642717165
+    one_time: true
+    bought: false

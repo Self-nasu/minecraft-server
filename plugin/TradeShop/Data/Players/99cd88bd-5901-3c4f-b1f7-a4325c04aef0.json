@@ -1,0 +1,12 @@
+{
+  "99cd88bd-5901-3c4f-b1f7-a4325c04aef0": {
+    "uuidString": "99cd88bd-5901-3c4f-b1f7-a4325c04aef0",
+    "ownedShops": [
+      "l::nasu vally::3.0::64.0::-547.0"
+    ],
+    "staffShops": [],
+    "showInvolvedStatus": false,
+    "adminEnabled": true,
+    "multi": 2
+  }
+}

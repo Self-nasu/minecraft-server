@@ -1,0 +1,3 @@
+Date	Time	ShopType	Owner	TradingPlayer	World	X	Y	Z	CostList	ProductList
+2024-06-14	07:08:08	Trade	nasu_chacha	nasu_chacha	nasu vally	580.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"IRON_INGOT","amount":40}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"ENCHANTED_BOOK","meta":{"==":"ItemMeta","meta-type":"ENCHANTED","stored-enchants":{"minecraft:mending":1}}}}
+2024-06-14	07:08:23	Trade	nasu_chacha	nasu_chacha	nasu vally	580.0	65.0	-590.0	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"IRON_INGOT","amount":40}}	{"Item #0":{"==":"org.bukkit.inventory.ItemStack","v":3839,"type":"ENCHANTED_BOOK","meta":{"==":"ItemMeta","meta-type":"ENCHANTED","stored-enchants":{"minecraft:mending":1}}}}
