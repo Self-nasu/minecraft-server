@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 49.36.239.244
+ip-address: 14.139.244.108
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1720769245351
-  login: 1720768749348
+  logout: 1737993449306
+  login: 1737993245549
   kits:
     claim: 0
 money: '10.0'
@@ -25,19 +25,19 @@ last-account-name: Lakshh007
 logoutlocation:
   world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
   world-name: nasu vally
-  x: -118.7099308394742
-  y: 66.0
-  z: 178.52195121907943
-  yaw: -97.6116943359375
-  pitch: 23.700246810913086
+  x: 15.553555154217753
+  y: 78.0
+  z: 145.93330475852738
+  yaw: -166.4637451171875
+  pitch: 8.099985122680664
 lastlocation:
   world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
   world-name: nasu vally
-  x: 13.632273657952329
+  x: 13.377896386680387
   y: 73.0625
-  z: -468.98708649142173
-  yaw: -163.7979736328125
-  pitch: -16.050186157226562
+  z: -468.36732369267935
+  yaw: -169.6116943359375
+  pitch: -4.500014781951904
 homes:
   lucky:
     world: 8d897fc4-489d-452d-8dd1-f3c53a5aef5d
