@@ -1,4 +1,4 @@
-cooldown: 3600
+cooldown: 60
 display:
   default:
     id: COOKED_BEEF

@@ -1,0 +1,14 @@
+name: Sojumaru_gaming
+kits:
+  land:
+    cooldown: 1737998627854
+    one_time: false
+    bought: false
+  food:
+    cooldown: 1738001031551
+    one_time: false
+    bought: false
+  starter:
+    cooldown: 1738001036491
+    one_time: true
+    bought: false
